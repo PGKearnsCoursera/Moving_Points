@@ -1,0 +1,54 @@
+---
+title: "Moving Points"
+author: "PeterKearns"
+date: "April 16, 2018"
+output:
+  ioslides_presentation: default
+  beamer_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(plotly)
+library(leaflet)
+```
+
+## Ploting Character controls
+
+The us of this app is to easily cycle through the base plotting characters.
+
+There is a slider and 2 numeric controls.
+
+The original goal was to have the points ploted be persistent but time prevented me from learning how to do this properly
+
+a link to the repo is here:
+<https://github.com/PGKearnsCoursera/Moving_Points>.
+
+
+
+
+## Slide with app capture
+a screen cap of the image can be seen here
+
+```{r pic, echo = TRUE, message=FALSE}
+  knitr::include_graphics('./Capture.png')
+```
+
+## Pros and cons
+###Pros
+- Easy to use
+- Light weigth
+- Intuitive
+###Cons
+-Not persistent
+-Not easy to compare
+
+## Future Directions
+From what I learned doing this project I know know i want to understand
+
+-How to control states within a server.R file
+-How to make logic persistent
+-How to edit data permanently
+
+
+
