@@ -46,9 +46,9 @@ a screen cap of the image can be seen here
 ## Future Directions
 From what I learned doing this project I know know i want to understand
 
--How to control states within a server.R file
--How to make logic persistent
--How to edit data permanently
+- How to control states within a server.R file
+- How to make logic persistent
+- How to edit data permanently
 
 
 
